@@ -1,0 +1,22 @@
+{
+  "name": "TestEnvNode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.13.3",
+    "jade": "^1.11.0",
+    "mongodb": "^2.1.0",
+    "mongoose": "^4.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.8.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "./node_modules/nodemon/bin/nodemon.js index.js"
+  },
+  "author": "Ismael",
+  "license": "ISC"
+}

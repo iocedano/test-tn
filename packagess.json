@@ -1,0 +1,12 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "scripts": {
+	  "start" : "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "mongodb": "^2.1.0",
+    "mongoose": "^4.3.1"
+  }
+}
